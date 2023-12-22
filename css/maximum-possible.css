@@ -6,8 +6,8 @@
   background-color: #000000;
   border-width: 1.6vw;
   border-style: solid;
-  border-color: #a5bb00;
-  /* border-color: #0075bb; */
+
+  border-color: #0075bb;
 }
 @media screen and (min-width: 680px) {
   .max-pos .line {

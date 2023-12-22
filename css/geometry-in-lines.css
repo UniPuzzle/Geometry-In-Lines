@@ -8,6 +8,7 @@
   --circle-color: #ababab;
   --clues-blob: #afb0b2;
   --backdrop-color: #000000b1;
+  --width: 100%;
 }
 html,
 body {
@@ -106,13 +107,31 @@ img {
   }
 }
 
-.tasks-wrap {
+/* .tasks-wrap {
   position: relative;
   margin-top: 50px;
   width: 100%;
   aspect-ratio: 1/1;
   background-color: ivory;
   border: 0.5px solid;
+} */
+.tasks-wrap {
+  position: relative;
+  margin-top: 50px;
+  width: 91vw;
+  height: 91vw;
+  background-color: ivory;
+  border: 0.5px solid;
+}
+@media screen and (min-width: 680px) {
+  .tasks-wrap {
+    position: relative;
+    margin-top: 50px;
+    width: 44vw;
+    height: 44vw;
+    background-color: ivory;
+    border: 0.5px solid;
+  }
 }
 
 /* ================ */

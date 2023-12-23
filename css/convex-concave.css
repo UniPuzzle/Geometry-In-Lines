@@ -1,0 +1,94 @@
+.convex-concave .line {
+  width: 5%;
+  position: absolute;
+  border-radius: 3vw;
+  z-index: 100000;
+  border-width: 1.6vw;
+  border-style: solid;
+}
+@media screen and (min-width: 680px) {
+  .convex-concave .line {
+    border-width: 0.8vw;
+    border-style: solid;
+  }
+}
+
+.convex-concave-line-1 {
+  height: 91.6%;
+
+  border-color: #950f54;
+  background-color: #950f54;
+
+  -ms-transform: rotate(18deg);
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(18deg);
+
+  top: 4.5%;
+  left: 7%;
+}
+
+.convex-concave-line-2 {
+  height: 91.6%;
+
+  border-color: #00a3fd;
+  background-color: #00a3fd;
+
+  -ms-transform: rotate(162deg);
+  -webkit-transform: rotate(162deg);
+  -moz-transform: rotate(162deg);
+  -o-transform: rotate(162deg);
+  transform: rotate(162deg);
+
+  top: 4.5%;
+  left: 37%;
+}
+
+.convex-concave-line-3 {
+  height: 91.6%;
+
+  border-color: #ee2110;
+  background-color: #ee2110;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 4.5%;
+  left: 75.4%;
+}
+
+.convex-concave-line-4 {
+  height: 91.6%;
+
+  border-color: #5cdb32;
+  background-color: #5cdb32;
+
+  -ms-transform: rotate(54deg);
+  -webkit-transform: rotate(54deg);
+  -moz-transform: rotate(54deg);
+  -o-transform: rotate(54deg);
+  transform: rotate(54deg);
+
+  top: 2.5%;
+  left: 24%;
+}
+
+.convex-concave-line-5 {
+  height: 91.6%;
+
+  border-color: #fda900;
+  background-color: #fda900;
+
+  -ms-transform: rotate(126deg);
+  -webkit-transform: rotate(126deg);
+  -moz-transform: rotate(126deg);
+  -o-transform: rotate(126deg);
+  transform: rotate(126deg);
+
+  top: 2.5%;
+  left: 71%;
+}

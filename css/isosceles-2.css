@@ -1,0 +1,121 @@
+.isosceles-2 .line {
+  width: 5%;
+  position: absolute;
+  border-radius: 3vw;
+  z-index: 100000;
+  border-width: 1.6vw;
+  border-style: solid;
+
+  border-color: #19b300;
+  background-color: #19b300;
+}
+@media screen and (min-width: 680px) {
+  .isosceles-2 .line {
+    border-width: 0.8vw;
+    border-style: solid;
+  }
+}
+
+.isosceles-2-line-1 {
+  height: 64.7%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 17.6%;
+  left: 20.1%;
+}
+
+.isosceles-2-line-2 {
+  height: 64.7%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 17.6%;
+  left: 53.3%;
+}
+
+.isosceles-2-line-3 {
+  height: 64.7%;
+
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+
+  top: 17.6%;
+  left: 75.4%;
+}
+
+.isosceles-2-line-4 {
+  height: 64.7%;
+
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+
+  top: 17.6%;
+  left: 87.3%;
+}
+
+.isosceles-2-line-5 {
+  height: 86.6%;
+
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  top: 7.7%;
+  left: 13.8%;
+}
+
+.isosceles-2-line-6 {
+  height: 86.6%;
+
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+
+  top: 7.7%;
+  left: 48%;
+}
+
+.isosceles-2-line-7 {
+  height: 86.6%;
+
+  -ms-transform: rotate(160deg);
+  -webkit-transform: rotate(160deg);
+  -moz-transform: rotate(160deg);
+  -o-transform: rotate(160deg);
+  transform: rotate(160deg);
+
+  top: 7.7%;
+  left: 66%;
+}
+
+.isosceles-2-line-8 {
+  height: 86.6%;
+
+  -ms-transform: rotate(200deg);
+  -webkit-transform: rotate(200deg);
+  -moz-transform: rotate(200deg);
+  -o-transform: rotate(200deg);
+  transform: rotate(200deg);
+
+  top: 7.7%;
+  left: 87%;
+}

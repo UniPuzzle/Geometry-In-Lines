@@ -1,34 +1,13 @@
-.task-container-v3 {
-  display: block;
-  margin: 0;
-}
-.task-container-v3 .tasks-wrap {
-  margin: 0;
-  height: 44.23vw;
-}
-@media screen and (min-width: 680px) {
-  .task-container-v3 {
-    display: flex;
-    gap: 0;
-  }
-}
-
-@media screen and (min-width: 680px) {
-  .task-container-v3 .tasks-wrap {
-    margin: 0;
-    height: 23.52vw;
-  }
-}
 .max-pos-v3 .line {
   width: 6.8%;
   position: absolute;
   border-radius: 3vw;
   z-index: 100000;
-  background-color: #000000;
   border-width: 2.6vw;
   border-style: solid;
 
   border-color: #0075bb;
+  background-color: #0075bb;
 }
 @media screen and (min-width: 680px) {
   .max-pos-v3 .line {

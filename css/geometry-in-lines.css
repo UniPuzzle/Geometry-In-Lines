@@ -1,15 +1,3 @@
-:root {
-  --bg-color: #f2f1ef;
-  --bg-header: #094eab;
-  --main-bg-item: #ababab;
-  --second-bg-item: #ffffff;
-  --main-color: #000000;
-  --second-color: #ffffff;
-  --circle-color: #ababab;
-  --clues-blob: #afb0b2;
-  --backdrop-color: #000000b1;
-  --width: 100%;
-}
 html,
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -18,8 +6,8 @@ body {
   height: 100dvh;
   max-width: 100vw;
   width: 100%;
-  color: var(--main-color);
-  background-color: var(--bg-color);
+  color: black;
+  background-color: #00000005;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -39,9 +27,7 @@ p {
 ul {
   list-style: none;
 }
-input[type="radio"] {
-  display: none;
-}
+
 .line1 {
   top: 50%;
   width: 100%;
@@ -88,7 +74,7 @@ input[type="radio"] {
   justify-content: center;
 }
 .container {
-  padding: 3vw;
+  padding: 10vw 3vw;
 }
 img {
   position: absolute;
@@ -103,34 +89,71 @@ img {
 @media screen and (min-width: 680px) {
   .task-container {
     display: flex;
-    gap: 3vw;
+    justify-content: center;
   }
 }
 
-/* .tasks-wrap {
-  position: relative;
-  margin-top: 50px;
-  width: 100%;
-  aspect-ratio: 1/1;
-  background-color: ivory;
-  border: 0.5px solid;
-} */
+.task-container-v3 {
+  display: block;
+  margin: 0;
+}
+.task-container-v3 .tasks-wrap {
+  margin: 0;
+  height: 44.23vw;
+}
+@media screen and (min-width: 680px) {
+  .task-container-v3 {
+    display: flex;
+    gap: 0;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .task-container-v3 .tasks-wrap {
+    margin: 0;
+    height: 21vw;
+  }
+}
+
 .tasks-wrap {
   position: relative;
-  margin-top: 50px;
+
   width: 91vw;
   height: 91vw;
   background-color: ivory;
-  border: 0.5px solid;
+  /*  border: 0.5px solid; */
 }
 @media screen and (min-width: 680px) {
   .tasks-wrap {
     position: relative;
-    margin-top: 50px;
+
     width: 44vw;
     height: 44vw;
     background-color: ivory;
-    border: 0.5px solid;
+    /*  border: 0.5px solid; */
+  }
+}
+@supports (aspect-ratio: 1/1) {
+  .tasks-wrap {
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-color: ivory;
+    /*  border: 0.5px solid; */
+  }
+
+  @media screen and (min-width: 680px) {
+    .tasks-wrap {
+      position: relative;
+
+      width: 44vw;
+      height: auto;
+      aspect-ratio: 1/1;
+      background-color: ivory;
+      /*  border: 0.5px solid; */
+    }
   }
 }
 

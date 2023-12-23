@@ -1,0 +1,95 @@
+.angles .line {
+  width: 4.8%;
+  position: absolute;
+  border-radius: 3vw;
+  z-index: 100000;
+  border-width: 1.8vw;
+  border-style: solid;
+
+  border-color: #1db200;
+  background-color: #1db200;
+}
+@media screen and (min-width: 680px) {
+  .angles .line {
+    border-width: 0.8vw;
+    border-style: solid;
+  }
+}
+
+.angles-line-1 {
+  height: 64.7%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 17.5%;
+  left: 13.7%;
+}
+
+.angles-line-2 {
+  height: 64.7%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 17.5%;
+  left: 48%;
+}
+
+.angles-line-3 {
+  height: 64.7%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 17.5%;
+  left: 82%;
+}
+
+.angles-line-4 {
+  height: 64.7%;
+
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+
+  top: 17.5%;
+  left: 17%;
+}
+
+.angles-line-5 {
+  height: 64.7%;
+
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg);
+
+  top: 17.5%;
+  left: 48%;
+}
+
+.angles-line-6 {
+  height: 64.7%;
+
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg);
+
+  top: 17.5%;
+  left: 79%;
+}

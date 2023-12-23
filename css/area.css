@@ -1,0 +1,168 @@
+.area .line {
+  width: 6%;
+  position: absolute;
+  border-radius: 3vw;
+  z-index: 100000;
+  background-color: #ee220a;
+  border-width: 2.2vw;
+  border-style: solid;
+  border-color: #ee220a;
+}
+@media screen and (min-width: 680px) {
+  .area .line {
+    border-width: 1vw;
+    border-style: solid;
+  }
+}
+
+.area-line-1 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: -2.6%;
+  left: 48.3%;
+}
+
+.area-line-2 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 7.1%;
+  left: 42.7%;
+}
+
+.area-line-3 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 17%;
+  left: 36%;
+}
+
+.area-line-4 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 26.7%;
+  left: 31%;
+}
+
+.area-line-5 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 36.4%;
+  left: 23.5%;
+}
+
+.area-line-6 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 46.3%;
+  left: 16.8%;
+}
+
+.area-line-7 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 17%;
+  left: 77.3%;
+}
+
+.area-line-8 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 26.7%;
+  left: 71.6%;
+}
+.area-line-9 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 36.4%;
+  left: 64.8%;
+}
+.area-line-10 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 46.3%;
+  left: 60%;
+}
+.area-line-11 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 56%;
+  left: 52.3%;
+}
+.area-line-12 {
+  height: 36.5%;
+
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  top: 65.8%;
+  left: 45.5%;
+}
